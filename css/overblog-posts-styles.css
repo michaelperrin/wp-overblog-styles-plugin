@@ -1,0 +1,105 @@
+.image-align-right {
+	float: right;
+}
+
+.image-align-left {
+	float: left;
+}
+
+.ob-pull-left {
+	float: left;
+}
+
+.ob-pull-right {
+	float: right;
+}
+
+.ob-section.ob-section-link {
+    margin-bottom: 20px;
+}
+
+.ob-section-link .ob-ctn {
+	padding: 15px;
+	border: 1px solid gray;
+}
+
+.ob-section-link .ob-ctn .ob-title {
+	overflow: hidden;
+}
+
+.ob-section-link p.ob-title, .ob-section-link p.ob-snippet {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ob-section-link .ob-ctn .ob-snippet {
+    color: #808080;
+    text-align: justify;
+    font-style: italic;
+    overflow: hidden;
+    margin: 15px;
+    line-height: 20px;
+	display: block;
+	max-height: 95px;
+}
+
+.ob-section-link .ob-ctn .ob-url {
+    background: #f5f5f5;
+    padding: 5px 10px;
+    margin: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 15px;
+}
+
+.ob-section-link .ob-ctn .ob-url .ob-link {
+    display: block;
+    font-style: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ob-section-link .ob-ctn .ob-media-left .ob-img {
+    display: block;
+	object-fit: cover;
+	max-width: 170px;
+}
+
+.ob-media {
+    max-width: 100%;
+}
+
+.ob-section-link .ob-ctn::after {
+    clear: both;
+}
+
+.ob-section-link a {
+	color: black;
+}
+
+.ob-section-images {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.ob-section::before, .ob-section::after {
+    display: table;
+    content: "";
+}
+
+.ob-section::after {
+	clear: both;
+}
+
+.image-size-small {
+	width: 100px;
+}
+
+.image-size-medium {
+	width: 300px;
+}
+
+.image-size-large {
+	width: 600px;
+}
